@@ -2,8 +2,8 @@ import streamlit as st
 import requests
 import uuid
 
-API_URL = "http://127.0.0.1:8000/chat"
-ADMIN_API_URL = "http://127.0.0.1:8000/add-document"
+API_URL = "https://dongquanpro2004-cskh-rag-bot.hf.space/chat"
+ADMIN_API_URL = "https://dongquanpro2004-cskh-rag-bot.hf.space/add-document"
 
 st.set_page_config(page_title="CSKH Bot Production", page_icon="🤖", layout="wide")
 
